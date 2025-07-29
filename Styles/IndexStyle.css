@@ -28,7 +28,7 @@
 
 #quote-container {
   border: 2px solid var(--borderColor);
-  background-color: var(--accent);
+  background-color: var(--boxColor);
   border-radius: 8px;
 }
 
