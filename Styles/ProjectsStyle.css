@@ -25,7 +25,7 @@
 
   margin-bottom: 2%;
 
-  background-color: var(--bgColor);
+  background-color: var(--accentColor);
   border: 5px solid var(--borderColor);
   border-radius: 10px;
 }
