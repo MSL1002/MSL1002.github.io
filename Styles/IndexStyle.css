@@ -21,7 +21,7 @@
   width: 900;
   margin:0 auto;
 
-  background-color: var(--accentColor);
+  background-color: var(--accent);
   border: 2px solid var(--borderColor);
   border-radius: 8px;
 }
