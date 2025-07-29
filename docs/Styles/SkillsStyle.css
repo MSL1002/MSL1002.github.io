@@ -1,0 +1,55 @@
+#my-skills{
+
+  border: 5px, solid, var(--borderColor);
+  border-radius: 1rem;
+  
+  background-color: var(--boxColor);
+
+  min-height: fit-content;
+  max-width: 50rem;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+#my-skills #coding-languages, #my-skills #personal-skills{
+
+  max-width: fit-content;
+  min-width: none;
+
+  padding: 1rem;
+  margin: 1rem;
+
+  border: 5px, solid, var(--borderColor);
+  border-radius: 1rem;
+  
+  background-color: var(--boxColor);
+}
+
+#my-skills summary{
+  font-size: larger;
+}
+
+#my-skills details{
+  padding: 1.5rem;
+}
+
+#my-skills details ul{
+  padding-left: 2rem;
+}
+
+#my-skills details ul li{
+  font-size: large;
+}
+
+#my-skills #skill-details{
+  flex-basis: 100%;
+  text-align: center;
+  padding: 1rem;
+}
