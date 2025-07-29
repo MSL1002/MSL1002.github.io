@@ -29,6 +29,33 @@
   margin-left: .5rem;
 }
 
+#my-interests{
+
+  border: 5px, solid, var(--borderColor);
+  border-radius: 1rem;
+  
+  background-color: var(--boxColor);
+
+  min-height: fit-content;
+  max-width: 20rem;
+
+  margin: 1.5rem auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#my-interests .interests-container{
+  margin: 1rem;
+}
+
+#my-interests .interests-container ul{
+  margin-left: 1.8rem;
+}
+
 .resume-container{
   flex: 1;
 
@@ -37,7 +64,7 @@
   border-radius: 10px;
 
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 3rem;
 
   width: 50rem;
   height: 66.5rem;
