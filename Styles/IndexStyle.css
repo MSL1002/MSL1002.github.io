@@ -21,14 +21,14 @@
   width: 900;
   margin:0 auto;
 
-  background-color: var(--accent);
+  background-color: var(--boxColor);
   border: 2px solid var(--borderColor);
   border-radius: 8px;
 }
 
 #quote-container {
   border: 2px solid var(--borderColor);
-  background-color: var(--boxColor);
+  background-color: var(--accent);
   border-radius: 8px;
 }
 
